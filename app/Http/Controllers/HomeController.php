@@ -37,4 +37,8 @@ class HomeController extends Controller
     public function features() {
         return view('features');
     }
+
+    public function about() {
+        return view('about');
+    }
 }

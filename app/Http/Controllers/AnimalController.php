@@ -47,6 +47,7 @@ class AnimalController extends Controller
             
         ]);
 
+
         $input = $request->all();
         if ($image = $request->file('image')) {
             $destinationPath = 'assets/image/';

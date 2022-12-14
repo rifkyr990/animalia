@@ -19,11 +19,8 @@
             <div class="text-center d-flex justify-content-center w-100 flex-column " style="height: 100vh;">
                 <div class="main">
                     <h2 class="text-light">Animalia Apps</h2>
-                    <p class="d-block mx-auto w-50 text-light">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit eaque
-                    saepe fuga ab rem error illum
-                    aspernatur veniam labore nulla cupiditate, dolores repellendus placeat atque, facere totam hic
-                    cumque? Quae?</p>
-                    <button class="css-button-rounded--green"><a href="{{ url('/animal') }}" class="nav-link">Discover Now</a></button>
+                    <p class="d-block mx-auto w-50 text-light my-4">Animalia merupakan aplikasi pengenalan hewan, aplikasi ini ditujukan untuk anak-anak maupun dewasa yang memiliki keinginnan untuk mengenali suara hewan.</p>
+                    <a href="{{ url('/animal') }}" class="css-button-rounded--green my-3 text-decoration-none">Discover Now</a>
                 </div>
             </div>
         </div>

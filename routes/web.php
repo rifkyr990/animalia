@@ -24,6 +24,7 @@ Auth::routes();
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('/features', [App\Http\Controllers\HomeController::class, 'features'])->name('features');
+Route::get('/about', [App\Http\Controllers\HomeController::class, 'about'])->name('about');
 Route::get('/create', [App\Http\Controllers\AnimalController::class, 'create'])->name('create');
 Route::get('/animal', [App\Http\Controllers\AnimalController::class, 'index'])->name('index');
 Route::post('/store', [App\Http\Controllers\AnimalController::class, 'store'])->name('store');

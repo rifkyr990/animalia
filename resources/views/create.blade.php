@@ -31,13 +31,7 @@
                 <div class="col-xs-12 my-sm-2">
                     <div class="form-group">
                         <p><strong>Jenis hewan</strong></p>
-                        <!-- <input type="text" name="jenis" id="" class="form-control" placeholder="Jenis hewan"> -->
-                        <select class="form-select form-select-md" aria-label=".form-select-sm example">
-                            <option selected>Pilih jenis hewan</option>
-                            <option value="mamalia">Mamalia</option>
-                            <option value="amphibi">Amfibi</option>
-                            <option value="reptil">Reptil</option>
-                        </select>
+                        <input type="text" name="jenis" id="" class="form-control" placeholder="Jenis hewan">
                     </div>
                 </div>
                 <div class="col-xs-12 my-sm-2">

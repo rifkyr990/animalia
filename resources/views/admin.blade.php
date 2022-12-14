@@ -14,6 +14,7 @@
 <body class="bg-dark">
     <div class="container">
         <h2 class="fw-bold py-4 text-center mt-5 text-light">Data Admin</h2>
+        <a href="{{ url('create') }}" class="css-button-rounded--green my-3 text-decoration-none text-center">Tambah</a>
         <table class="table table-bordered text-center bg-transparent">
             <thead>
                 <tr>

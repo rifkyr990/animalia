@@ -6,7 +6,6 @@
     <div class="bg-login">
         <div class="container">
             <div class="form d-flex align-items-center justify-content-center vh-100">
-                <div id="output"></div>
                 <div class="row rounded-2 formLogin text-light bg-dark" style="width: 500px;">
                     <div class="col-sm-12 p-5">
                         <form method="POST" action="{{ route('login') }}" class="form-group">

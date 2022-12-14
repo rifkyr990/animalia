@@ -22,6 +22,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- font asesome 6 cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.0/css/all.css">
 </head>
 
 <body>
@@ -62,8 +65,9 @@
                         @endif
                         @else
                         <li class="nav-item"><a href="{{ route('home') }}" class="nav-link text-light">Home</a></li>
-                        <li class="nav-item"><a href="{{ route('features') }}" class="nav-link text-light">Features</a></li>
-                        <li class="nav-item"><a href="" class="nav-link text-light">About</a></li>
+                        <li class="nav-item"><a href="{{ route('features') }}" class="nav-link text-light">Features</a>
+                        </li>
+                        <li class="nav-item"><a href="{{ route('about') }}" class="nav-link text-light">About</a></li>
                         <li class="nav-item dropdown">
                             <a id="navbarDropdown" class="nav-link text-light dropdown-toggle " href="#" role="button"
                                 data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

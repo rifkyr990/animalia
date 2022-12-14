@@ -20,7 +20,7 @@
                 Labore debitis repellendus odio accusamus! Eum, ab. A molestias voluptatum illum, tempore ipsam magnam
                 ab.
             </h5>
-            <a href="{{ url('create') }}" class="css-button-rounded--green my-3 text-decoration-none">Tambah</a>
+            
         </section>
     </div>
     <div class="container mt-5 mb-3 ">

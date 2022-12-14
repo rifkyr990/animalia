@@ -15,10 +15,10 @@
     <img src="{{ asset('assets/image/blob.svg') }}" class="position-absolute left-0" width="80%">
     <div class="container">
         <div class="text-center d-flex justify-content-center w-100 flex-column" style="height: 100vh;">
-            <div class="d-block mx-auto mt-5" data-aos="flip-up" data-aos-duration="1500">
-                <img src="{{ asset('assets/image/ph.svg') }}" alt="" width="250px">
+            <div class="d-block mx-auto mt-5 " data-aos="flip-up" data-aos-duration="1500">
+                <img src="{{ asset('assets/image/ph.svg') }}" alt="" width="250px" >
             </div>
-
+            <img src="{{ asset('assets/image/logo.png') }}" alt="" width="200px" class="d-block mx-auto mt-2">
             <div class="img-btn">
                 <img src="{{ asset('assets/image/as.png') }}" alt="" width="180px" data-aos="fade-right" data-aos-duration="1000">
                 <img src="{{ asset('assets/image/ps.png') }}" alt="" width="180px" data-aos="fade-left" data-aos-duration="1000">
