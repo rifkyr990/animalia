@@ -61,5 +61,4 @@
 </body>
 
 </html>
-{!! $animals->links() !!}
 @endsection

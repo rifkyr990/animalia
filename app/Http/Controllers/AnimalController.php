@@ -14,10 +14,9 @@ class AnimalController extends Controller
      */
     public function index()
     {
-        $animals = Animal::latest()->paginate(5);
+        $animals = Animal::latest()->paginate(20);
 
-        return view('animal', compact('animals'))
-        ->with('i', (request()->input('page', 1) - 1) * 5);
+        return view('animal', compact('animals'));
     }
 
     /**

@@ -44,12 +44,12 @@
                 <div class="col-xs-12 my-sm-2">
                     <p><strong>Audio</strong></p>
                     <input type="file" name="audio" id="" class="form-control" placeholder="audio hewan"
-                        accept="audio/mp3">
+                        accept="audio/mp3" multiple>
                 </div>
                 <div class="col-xs-12 my-sm-2">
                     <p><strong>Image</strong></p>
                     <input type="file" name="image" id="" class="form-control" placeholder="image hewan"
-                        accept="image/*">
+                        accept="image/*" multiple>
                 </div>
                 <div class="col-xs-12 my-sm-4">
                     <button type="submit" class="btn btn-primary">Submit</button>
